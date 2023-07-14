@@ -1,5 +1,5 @@
 # OpenCAD
-Open Source Computer Aided Dispatch System for GTA V Roleplay Communities.
+Next generation Open Source Computer Aided Dispatching System
 
 ## Game Data Import
 
