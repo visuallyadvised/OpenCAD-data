@@ -1,21 +1,10 @@
 # OpenCAD
 Next generation Open Source Computer Aided Dispatching System
 
-## Game Data Import
-
-To import the database manually [follow Part 2 of the installaion guide](https://guides.opencad.io/alldoc).
-
-## Contributing Game Data
-
-To contribute game data either:
-
-1. [Raise a Pull Request at our main repository](https://repo.opencad.io/).
-2. [Submit the game data via a support request.](https://help.opencad.io/).
-
 
 ## Support
 
-Need Help? [View our Documentation](https://guides.opencad.io) which has all the documentation you need.
+Contact us for support. This version is currently unsupported by mainstream support.
 
 Still Having Trouble? on the community Discord post your issue in [#general-help](http://discord.io/opencadproject).
 
