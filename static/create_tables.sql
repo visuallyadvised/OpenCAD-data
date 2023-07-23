@@ -13,6 +13,9 @@ CREATE TABLE IF NOT EXISTS `<DATA_PREFIX>userInformation` (
     UNIQUE KEY `id` (`id) 
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT;
 
+INSERT INTO `<DATA_PREFIX>userInformation` (`id`,`name`, `email`, `password`, `privilege`, `passwordReset`, `accountApproval`, `suspensionComment`, `suspensionDuration`) VALUES
+(1, '<NAME>', '<EMAIL>', '<PASSWORD>', '<IDENTIFER>', 3, 0, 1, NULL, NULL);
+
 CREATE TABLE IF NOT EXISTS `<DATA_PREFIX>configuration` (
     `hash` varchar(255) NOT NULL COMMENT 'Security Hash',
     `key` varchar(80) NOT NULL COMMENT 'Key for Option',
