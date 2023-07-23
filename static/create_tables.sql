@@ -71,3 +71,14 @@ CREATE TABLE IF NOT EXISTS `<DATA_PREFIX>amberAlert` (
 CREATE TABLE IF NOT EXISTS `<DATA_PREFIX>aop`(
     `patrolArea` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT;
+
+CREATE TABLE IF NOT EXISTS `<DATA_PREFIX>calls` (
+    `callID` int(11) NOT NULL,
+    `callType` text NOT NULL,
+    `callPrimaryUnit` text DEFAULT NULL,
+    `callPrimaryStreet` text NOT NULL,
+    `callCrossStreet` text DEFAULT NULL,
+    `callCrossStreet2` text DEFAULT NULL,
+    `callNarrative` text NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT;
+
